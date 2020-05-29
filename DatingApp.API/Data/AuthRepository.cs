@@ -63,7 +63,7 @@ namespace DatingApp.API.Data
             if(await _context.Users.AnyAsync(x=>x.UserName== username))
                 return true;
                 
-            return false;
+            return false;;
         }
     }
 }
